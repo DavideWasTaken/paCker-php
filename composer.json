@@ -1,0 +1,26 @@
+{
+    "name": "davidewastaken/packer",
+    "description": "Fast 3D cuboid packing with a bundled native engine: boxes, stock, weight, rotations, stable support",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/DavideWasTaken/paCker",
+    "keywords": [
+        "bin packing",
+        "box packing",
+        "3d packing",
+        "shipping",
+        "cuboid"
+    ],
+    "require": {
+        "php": ">=8.1",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "paCker\\": "src/"
+        },
+        "files": [
+            "src/Packer.php"
+        ]
+    }
+}
