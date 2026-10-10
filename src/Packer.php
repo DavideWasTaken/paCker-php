@@ -446,7 +446,7 @@ final class Packer
     private function validateResult(mixed $result): void
     {
         $geometric = ($this->options['support_mode'] ?? 'full_base') === 'geometric';
-        $versions = $geometric ? ['0.5.0-free3d-dev'] : ['0.1.0', '0.2.0', '0.3.0', '0.3.1', '0.3.2', '0.3.3', '0.4.0', '0.4.1', '0.5.0'];
+        $versions = $geometric ? ['0.5.1-free3d-dev'] : ['0.1.0', '0.2.0', '0.3.0', '0.3.1', '0.3.2', '0.3.3', '0.4.0', '0.4.1', '0.5.0', '0.5.1'];
         $valid = is_array($result) && in_array($result['version'] ?? null, $versions, true)
             && ($geometric ? (($result['schema_version'] ?? null) === 2
                 && ($result['support_mode'] ?? null) === 'geometric') : !array_key_exists('schema_version', $result))

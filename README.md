@@ -22,6 +22,6 @@ Options include `support_mode` (`stable` by default, `contact`, `full_base`, `ge
 searching until the time limit) and `gap`. On other platforms pass your own build:
 `new \paCker\Packer('/path/to/packer')` or set `PACKER_BINARY`.
 
-Engine 0.5.0. Source, documentation and the C library: https://github.com/DavideWasTaken/paCker
+Engine 0.5.1. Source, documentation and the C library: https://github.com/DavideWasTaken/paCker
 
 MIT licensed; the bundled engine includes cJSON (MIT, see LICENSE-cJSON).
